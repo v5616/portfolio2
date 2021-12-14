@@ -1,0 +1,134 @@
+.nav li a {
+    color: black  !important; 
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+}
+
+.vishal{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.vishal h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(233, 110, 10);
+}
+.vishal p{
+    color: #555;
+    line-height: 22px;
+}
+.vishal a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.images{
+  
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.abouts{
+   display: flex;
+   justify-content: space-around;
+   top: 20%;
+   position: absolute;
+}
+.vish{
+    height: 40%;
+}
+.images img{
+    height: 100%; 
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .vish{
+    left: 45%;
+}
+
+
+/* .skills */
+.one{
+ margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.one div h3{
+    margin-left: 20px;
+}
+
+@media (max-width:1300px) {
+    .vishal h1{
+        font-size: 30px;
+    }
+    .images{
+      display: none;
+    }
+    .d-flex>div>h2{
+     font-size: .9rem;
+    }
+}
+
+.nav-link:hover{
+ color: rgb(247, 115, 8)  !important;
+}
+.about{
+   top: 5%;
+    
+}
+#skills{
+    text-align: center;
+   
+}
+.progress{
+    margin-top: 10px;
+}
+#services{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#services>div{
+    margin-top: 40px;
+}
+#contact{
+    text-align: center;
+    margin-top: 40px;
+}
+.d-flex{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container{
+    margin-top: 40px;
+    
+}
+.d-flex>div>h2>a{
+text-decoration: none;
+cursor: pointer;
+color: black;
+}
+#contact{
+    background-color: rgb(197, 188, 188);
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
